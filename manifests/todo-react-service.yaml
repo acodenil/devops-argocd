@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: todo-react-service
+  namespace: todo-react
 spec:
   selector:
     app: todo-react
