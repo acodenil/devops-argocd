@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-react-deployment
+  labels:
+    app: todo-react
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo-react
+  template:
+    metadata:
+      labels:
+        app: todo-react
+    spec:
+      containers:
+        - name: todo-react-container
+          image: banil51/todo-react:latest
+          ports:
+            - containerPort: 3000
+
