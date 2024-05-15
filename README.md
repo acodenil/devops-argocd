@@ -1,4 +1,4 @@
-# DevOps Internship Assignment
+# DevOps <!-- Internship --> Assignment
 
 ## Assignment Overview
 Dockerizing a simple todo web application (vite+react), deploy it to a Kubernetes cluster using Argo CD, and manage its release process with Argo Rollouts. The assignment consists of four main tasks: setup and configuration, creating the GitOps pipeline, implementing a canary release, and documentation.
