@@ -195,6 +195,7 @@ Dockerizing a simple todo web application (vite+react), deploy it to a Kubernete
     ```
     eksctl delete cluster --name devops-argocd --region ap-south-1
     ```
-
+<!--  
 Documentation: 
     [Google Docs](https://docs.google.com/document/d/1eEye7UZQlJsLcvepLjeI53uHRu_mhyKtRkl8swx3iGQ/edit?usp=sharing)
+-->
